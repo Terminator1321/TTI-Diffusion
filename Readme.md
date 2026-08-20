@@ -65,6 +65,6 @@ Pipeline: `prompt → BPE tokenizer → Text Encoder → U-Net denoising loop �
 
 ## Notes
 
-- The BPE tokenizer (`Token/bpe_tokenizer.json`) was trained separately as part of another project (RIRURU LLM) — the training code for it isn't included here.
+- The BPE tokenizer (`Token/bpe_tokenizer.json`) was trained separately as part of another project (Nano GPT) — the training code for it isn't included here.
 - Image resolution: 64×64 for the diffusion model, upscaled to 256×256.
 - `checkpoints/`, `Data/Datasets/`, and `__pycache__/` are gitignored — checkpoints and cached dataset files aren't tracked in the repo.
